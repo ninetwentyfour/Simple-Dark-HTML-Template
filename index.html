@@ -10,6 +10,10 @@
 		<noscript>
 			<link rel="stylesheet" type="text/css" href="noscript-style.css" />
 		</noscript>
+		<!-- Make IE style HTML5 elements-->
+		<!--[if lte IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 	</head>
 	<body class="fontLoad">
 		<div id="container">
@@ -19,10 +23,12 @@
 					<!-- root element for the items -->
 					<div class="items">
 						<!--Home Section-->
-						<div>
-							<h1>Travis Berry</h1><!-- Put your name or site title here -->
+						<section>
+							<hgroup>
+								<h1>Travis Berry</h1><!-- Put your name or site title here -->
+							</hgroup>
 							<span class="border red"></span>
-							<div class="content">
+							<section class="content">
 								<!-- Home page text blurb goes here-->
 								This template is created for those who want a simple central web presence,
 								but whose content mainly resides on other sites. <br /><br />Place a small blurb about yourself
@@ -33,13 +39,15 @@
 								<br /><br /><a id="submit" href="http://github.com/ninetwentyfour/Simple-Dark-HTML-Template/zipball/master">Download</a>
 								<!-- Home Section next link -->
 								<a class="bottom-nav next browse right red">Social Networks >></a>
-							</div>
-						</div>
+							</section>
+						</section>
 						<!--Social Network Section-->
-						<div>
-							<h1>Social <br />Networks</h1>
+						<section>
+							<hgroup>
+								<h1>Social <br />Networks</h1>
+							</hgroup>
 							<span class="border teal"></span>
-							<div class="content">
+							<section class="content">
 								<a href="http://www.facebook.com/travisberry924?ref=profile"><!--Change to your facebook link-->
 									<img class="social-icons" src="img/facebook-logo-square-webtreatsetc.png" alt="Facebook" title="Facebook" width="84px" height="84px">
 								</a>
@@ -60,13 +68,15 @@
 								</a>
 								<!-- Social Network Section next link -->
 								<a class="bottom-nav next browse right teal">Contact >></a>
-							</div>
-						</div>
+							</section>
+						</section>
 						<!--Contact Section-->
-						<div>
-							<h1>Contact</h1>
+						<section>
+							<hgroup>
+								<h1>Contact</h1>
+							</hgroup>
 							<span class="border yellow"></span>
-							<div class="content">
+							<section class="content">
 								<!-- Change form action="" to a script or action of your choosing-->
 								<form id="contactForm" action="Your Action Here" method="post">
 			   						<label for="name">Name</label>
@@ -88,8 +98,8 @@
 			 					</form>
 								<!-- Contact Section next link -->
 								<a class="bottom-nav next browse right yellow">Home >></a>
-							</div>
-						</div>
+							</section>
+						</section>
 				   	</div><!-- End items-->
 				</div><!--End Scrollable-->
 			</div><!-- End main-->

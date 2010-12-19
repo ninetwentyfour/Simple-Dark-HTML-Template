@@ -31,6 +31,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 	background: transparent;
 }
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
 body {
 	line-height: 1;
 }
@@ -215,7 +219,7 @@ input{
 	typically, this element is the one that *you* will style
 	the most.
 */
-.items div {
+.items section {
 	float:left;
 	margin-right:30px;
 }
