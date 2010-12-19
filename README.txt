@@ -6,7 +6,7 @@ Social Icons found here: http://sixrevisions.com/freebies/icons/free-social-medi
 
 This theme is available for use for personal or commercial purposes. Please consider giving a link back to http://www.travisberry.com somewhere on your site.
 
-Contact page included a form for you to hook up. Just set the action to whatever you want.
+Contact page includes a form for you to hook up. Just set the action to whatever you want.
 
 For questions email contact@travisberry.com 
 
