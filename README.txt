@@ -8,4 +8,4 @@ This theme is available for use for personal or commercial purposes. Please cons
 
 For questions email contact@travisberry.com 
 
-Download latest version from http://github.com/ninetwentyfour/Simple-Dark-HTML-Template/archives/master
+Download latest version from http://github.com/ninetwentyfour/Simple-Dark-HTML-Template/zipball/master
