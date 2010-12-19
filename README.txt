@@ -2,7 +2,9 @@ Simple Dark HTML Template by Travis Berry (http://www.travisberry.com) is licens
 
 View Demo Here: http://www.travisberry.com/simple-dark-html-template/index.html
 
-Social Icons found here: http://webtreats.mysitemyway.com/glossy-black-social-media-icons/ 
+Social Icons found here: http://webtreats.mysitemyway.com/glossy-black-social-media-icons/
+
+Fonts from http://www.theleagueofmoveabletype.com/fonts/8-goudy-bookletter-1911 and http://www.theleagueofmoveabletype.com/fonts/7-league-gothic 
 
 This theme is available for use for personal or commercial purposes. Please consider giving a link back to http://www.travisberry.com somewhere on your site. 
 
