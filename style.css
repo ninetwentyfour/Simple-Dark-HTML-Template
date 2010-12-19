@@ -118,9 +118,6 @@ input{
 	border-color:#0D0E0E #0D0E0E #333436;
 	border-style:solid;
 }
-.items div{
-	margin-right:30px;
-}
 .bottom-nav{
 	float: right;
 	margin-top: 15px;
@@ -180,4 +177,5 @@ input{
 */
 .items div {
 	float:left;
+	margin-right:30px;
 }
