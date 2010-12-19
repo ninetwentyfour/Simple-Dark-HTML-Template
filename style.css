@@ -86,12 +86,6 @@ input{
 	margin-left:150px;
 	margin-top:15%;
 }
-#content{
-	width:300px;
-	margin-left:150px;
-	text-shadow: 0 2px 1px #111111;
-	line-height: 1.15em;
-}
 #submit{
 	-moz-border-radius:2px 2px 2px 2px;
 	-moz-box-shadow:0 3px 5px #111111;
@@ -117,6 +111,12 @@ input{
 	background:none repeat scroll 0 0 #282829;
 	border-color:#0D0E0E #0D0E0E #333436;
 	border-style:solid;
+}
+.content{
+	width:300px;
+	margin-left:150px;
+	text-shadow: 0 2px 1px #111111;
+	line-height: 1.15em;
 }
 .bottom-nav{
 	float: right;

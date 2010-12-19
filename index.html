@@ -18,15 +18,17 @@
 					<div class="items">
 						<!--Home Section-->
 						<div>
-							<h1>Travis Berry</h1>
+							<h1>Travis Berry</h1><!-- Put your name or site title here -->
 							<span class="border red"></span>
-							<div id="content">
+							<div class="content">
+								<!-- Home page text blurb goes here-->
 								Here is a small blurb about myself. Lorem ipsum dolor sit amet, consectetur 
 								adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
 								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
 								ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
 								voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
 								cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								<!-- Home Section next link -->
 								<a class="bottom-nav next browse right red">Social Networks >></a>
 							</div>
 						</div>
@@ -34,25 +36,26 @@
 						<div>
 							<h1>Social <br />Networks</h1>
 							<span class="border teal"></span>
-							<div id="content">
-								<a href="http://facebook.com">
+							<div class="content">
+								<a href="http://facebook.com"><!--Change to your facebook link-->
 									<img class="social-icons" src="img/facebook.png" width="32px" height="32px">
 								</a>
-								<a href="http://twitter.com">
+								<a href="http://twitter.com"><!--Change to your twitter link-->
 									<img class="social-icons" src="img/twitter.png" width="32px" height="32px">
 								</a>
-								<a href="http://linkedin.com">
+								<a href="http://linkedin.com"><!--Change to your linked in link-->
 									<img class="social-icons" src="img/linkedin.png" width="32px" height="32px">
 								</a>
-								<a href="http://blogger.com">
+								<a href="http://blogger.com"><!--Change to your blogger link-->
 									<img class="social-icons" src="img/blogger.png" width="32px" height="32px">
 								</a>
-								<a href="http://deviantart.com">
+								<a href="http://deviantart.com"><!--Change to your deviant art link-->
 									<img class="social-icons" src="img/deviantart.png" width="32px" height="32px">
 								</a>
-								<a href="http://flickr.com">
+								<a href="http://flickr.com"><!--Change to your flickr link-->
 									<img class="social-icons" src="img/flickr.png" width="32px" height="32px">
 								</a>
+								<!-- Social Network Section next link -->
 								<a class="bottom-nav next browse right teal">Contact >></a>
 							</div>
 						</div>
@@ -60,13 +63,15 @@
 						<div>
 							<h1>Contact</h1>
 							<span class="border yellow"></span>
-							<div id="content">
+							<div class="content">
+								<!-- Change form action="" to a script or action of your choosing-->
 								<form id="contactForm" action="Your Action Here" method="post">
 			            			<label for="name">Name</label><br /><input type="text" name="name" /><br /><br />
 			            			<label for="name">Email</label><br /><input type="text" name="email" /><br /><br />
 			            			<label for="name">Message</label><br /><input type="text" name="message" /><br /><br />
 			            			<input type="submit" id="submit"value="Submit" /><br /><br />
 			            		</form>
+								<!-- Contact Section next link -->
 								<a class="bottom-nav next browse right yellow">Home >></a>
 							</div>
 						</div>
@@ -74,12 +79,12 @@
 				</div><!--End Scrollable-->
 			</div><!-- End main-->
 		</div><!-- End container-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+		<!-- Scrolling javascript source -->
 		<script src="http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js"></script>
 		<script>
 			// execute your scripts when the DOM is ready. this is mostly a good habit
 			$(function(){
-				// initialize scrollable
+				// initialize scrollable - turn on looping of slides with circular true
 				$(".scrollable").scrollable({ circular: true});
 				// make browser's back button work
 				history: true;
