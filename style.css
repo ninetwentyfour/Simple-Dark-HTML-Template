@@ -2,12 +2,12 @@
 @font-face {
 font-family: "League Gothic";
     src: url("fonts/leaguegothic-webfont.eot"); /* IE */  
-    src: local("League Gothic"), url("fonts/LeagueGothic.otf") format('opentype');
+    src: local("?"), url("fonts/LeagueGothic.otf") format('opentype');
 }
 @font-face {
 font-family: "Goudy Book";
     src: url("fonts/goudybookletter1911-webfont.eot"); /* IE */ 
-    src: local("OFLGoudyStM"), url("fonts/GoudyBookletter1911.otf") format('opentype');
+    src: local("?"), url("fonts/GoudyBookletter1911.otf") format('opentype');
 }
 .fontLoad{
  	font-family: "League Gothic", "Goudy Book";   
