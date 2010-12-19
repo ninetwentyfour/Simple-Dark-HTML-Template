@@ -117,6 +117,7 @@ input{
 	color:#FFFFFF;
 	font-size:19px;
 	padding:5px 15px;
+	letter-spacing: 1px;
 }
 #submit:hover{
 	-moz-box-shadow:0 3px 10px #111111;
@@ -137,7 +138,7 @@ input{
 	width:300px;
 	margin-left:150px;
 	text-shadow: 0 2px 1px #111111;
-	line-height: 1.15em;
+	line-height: 1.2em;
 	font-family: "Goudy Book"; 
 }
 /* next slide link */
