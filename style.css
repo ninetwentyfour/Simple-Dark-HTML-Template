@@ -196,7 +196,7 @@ input{
 	overflow:hidden;
 	width: 510px;
 	/* If you have problems with your slides being too long, change this */
-	min-height:400px;
+	min-height:430px;
 }
 /*
 	root element for scrollable items. Must be absolutely positioned
