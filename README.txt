@@ -21,3 +21,5 @@ Change the links to your social media profiles in the <!--Social Network Section
 The <!--Contact Section--> includes a form for you to hook up. Just set the action to whatever you want. I would use a simple PHP email script.
 
 For questions email contact@travisberry.com
+
+I'm in no way responsible for anything you do with this. If this breaks anything of yours, I'm not responsible for that either.
