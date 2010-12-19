@@ -1,0 +1,13 @@
+.items div {
+	float:none !important;
+	margin-right:30px;
+}
+.scrollable .items {
+    position: absolute;
+	width:660px !important;
+}
+.scrollable {
+    overflow: default;
+    position: inherit;
+    width: 510px;
+}
