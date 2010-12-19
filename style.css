@@ -46,7 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* reset */
+/*  end reset */
+/* main style */
 body{
 	background-color:#000;
 	background-image:url('img/dark-bg2.png');
@@ -65,6 +66,7 @@ a{
 	color:#ff3968;
 	border-bottom:none !important;
 }
+/* Contact Section Form Style */
 input{
 	-moz-border-radius:2px 2px 2px 2px;
 	-moz-box-shadow:0 3px 5px #111111 inset;
@@ -86,6 +88,7 @@ input{
 	margin-left:150px;
 	margin-top:15%;
 }
+/* Contact Section Submit Button Style */
 #submit{
 	-moz-border-radius:2px 2px 2px 2px;
 	-moz-box-shadow:0 3px 5px #111111;
@@ -112,35 +115,43 @@ input{
 	border-color:#0D0E0E #0D0E0E #333436;
 	border-style:solid;
 }
+/* end Contact Section Submit Button Style */
+/* div with slide content */
 .content{
 	width:300px;
 	margin-left:150px;
 	text-shadow: 0 2px 1px #111111;
 	line-height: 1.15em;
 }
+/* next slide link */
 .bottom-nav{
 	float: right;
 	margin-top: 15px;
 	text-align: right;
 	width: 100%;
 }
+/* span under h1 tag */
 .border{
 	width:300px;
 	display:block;
 	margin-bottom:15px;
 }
+/* accent color for Home Section */
 .red{
 	border-bottom:1px solid #ff3968;
 	color:#ff3968;
 }
+/* accent color for Social Network Section */
 .teal{
 	border-bottom:1px solid #39efff;
 	color:#39efff;
 }
+/* accent color for Contact Section */
 .yellow{
 	border-bottom:1px solid #e5ff39;
 	color:#e5ff39;
 }
+/* icons in Social Network Section */
 .social-icons{
 	margin-right:40px;
 	margin-bottom:40px;
@@ -148,6 +159,8 @@ input{
 	-moz-box-shadow: 1px 1px 2px #000;
 	-webkit-box-shadow: 1px 1px 2px #000;
 }
+/* end main style */
+/* slider style */
 /*
 	root element for the scrollable.
 	when scrolling occurs this element stays still.
@@ -179,3 +192,4 @@ input{
 	float:left;
 	margin-right:30px;
 }
+/* end slider style */
