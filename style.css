@@ -159,6 +159,15 @@ input{
 	-moz-box-shadow: 1px 1px 2px #000;
 	-webkit-box-shadow: 1px 1px 2px #000;
 }
+/* text selection colors */
+::selection {
+	background: #eee; /* Safari */
+	color:#111;
+	}
+::-moz-selection {
+	background: #eee; /* Firefox */
+	color:#111;
+}
 /* end main style */
 /* slider style */
 /*
