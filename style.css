@@ -51,7 +51,7 @@ body{
 	background-color:#000;
 	background-image:url('img/dark-bg2.png');
 	color:#999;
-	font-family:'Helvetica', sans-serif;
+	font-family:'Helvetica','Verdana', sans-serif;
 }
 h1{
 	font-size:50px;
