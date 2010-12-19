@@ -1,5 +1,5 @@
 /* This style sheet overrides styles in regular css to make page work for those without javascript*/
-.items div {
+.items section {
 	float:none !important;
 	margin-right:30px;
 }
